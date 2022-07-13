@@ -1,10 +1,9 @@
-### 1장 사용자 수에 따른 규모 확장성
-
 <details>
-<summary>1장</summary>
+<summary> 1장 사용자 수에 따른 규모 확장성</summary>
 <div markdown="1">
-1. 
-    1. request 흐름
+1. 단일 서버 - 웹 앱, 데이터베이스, 캐시 등 전부 서버 1대에서 실행
+    
+   - request 흐름
         
         도메인 검색 → **1)** host 파일 **2)** DNS cache **3)** DNS query → IP 주소 반환 → 해당 IP 주소로 HTTP 요청 전달 → 결과 리턴
         
